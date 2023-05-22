@@ -435,8 +435,14 @@ body *{word-break: keep-all;}
 
 /*-------------------------여기서부터 비주얼---------------------------*/
 #visual{width:100%;height:100vh;position:relative;}
-#visual video{width:100%;height:100vh;object-fit:cover;position:absolute;top:-80px;z-index:-99;}
+#visual video{width:100%;height:100%;object-fit:cover;position:absolute;top:0px;z-index:-99;display:block;outline:none;border:none;-webkit-mask-image: -webkit-radial-gradient(white, black);
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;}
+#visual .blackbg{width:100%;height:100%;position:absolute;left:50%;top:50%;transform: translate(-50%,-50%);background:rgba(0, 0, 0, 0.5);display:none;}
 #visual .tit{position:absolute;left:14%;top:40%;transform:translate(-20%,-40%);color:#fff;}
+
+#visual .blackbg{width:100%;height:100%;position:absolute;left:50%;top:50%;transform: translate(-50%,-50%);background:rgba(0, 0, 0, 0.5);display:none;}
+
 #visual .tit .org{width:15%;display:flex;justify-content:space-between;position:absolute;left:80%;top:0px;transform:translate(-75%)}
 #visual .tit .org div{width:10px;height:10px;background:#ff6600;border-radius:10px;}
 
@@ -444,7 +450,7 @@ body *{word-break: keep-all;}
 #visual .tit .playline .white{width:300px;height:3px;background:#fff;border-radius:3px;}
 #visual .tit .playline .black{width:100px;height:3px;background:#000;border-radius:3px;}
 
-#visual .visualicon{width:5%;position:absolute;left:50%;bottom:2%;transform:translate(-50%);}
+#visual .visualicon{width:5%;position:absolute;left:50%;bottom:-3.5%;transform:translate(-50%);}
 #visual .visualicon img{width:100%;display:block;}
 
 #visual .search{width:500px;position:absolute;right:0%;top:50px;transform:translate(-10%);display:flex;justify-content:center;align-items:end;}
@@ -497,7 +503,7 @@ body *{word-break: keep-all;}
 }
 /*-----------------챗봇-----------------*/
 
-  #container .banner{background:url(../img/banner.png) no-repeat;background-position:center;background-size:150%;background-attachment: fixed;align-items:center;;padding:150px 0px;}
+  #container .banner{background:url(../img/banner.png) no-repeat;background-position:center;background-size:150%;background-attachment: fixed;align-items:center;;padding:100px 0px;margin-top:50px;}
   #container .banner img{width:50vw;}
 
   #container .banner .a1{color:#ff6600;}
@@ -621,10 +627,10 @@ body *{word-break: keep-all;}
   #container .story .tit2 h2{font-size:1.8vw;color:#fff;font-weight:900;}
   #container .story .tit2 .gnb{display:flex;margin-top:50px;}
   #container .story .tit2 .gnb li{margin-right:80px;}
-  #container .story .tit2 .gnb li a{font-size:1.35vw;color:#fff;}
+  #container .story .tit2 .gnb li a{font-size:1.65vw;color:#fff;}
   #container .story .tit2 .under{display:flex;}
   #container .story .tit2 .under li{margin-right:80px;position:relative;}
-  #container .story .tit2 .under li p{visibility: hidden;font-size:1.35vw;}
+  #container .story .tit2 .under li p{visibility: hidden;font-size:1.65vw}
   #container .story .tit2 .under div{width:0%;height:2px;background:#fff;border-radius:500px;position:absolute;left:50%;top:50%;transform: translate(-50%,-50%);} 
 
 
@@ -948,13 +954,13 @@ header .gnb h1 img{width:100%;display:block;}
 #container .product .rightpro .but1{width:60%;display:flex;justify-content:space-around;margin:50px auto;}
 #container .product .rightpro .but1 li {width:35%;text-align:center;line-height:5vw;border-radius:24px;}
 
-#container .product .rightpro .but1 li a{width:100%;height:100%;display:block;color:#fff;font-size:1vw;font-weight:700;background:#75cdd9;border-radius:500px;}
+#container .product .rightpro .but1 li a{width:100%;height:100%;display:block;color:#fff;font-size:1.65vw;font-weight:700;background:#75cdd9;border-radius:500px;}
 
 #container .seachmo{width:92%;margin:50px auto;}
 #container .seachmo input{width:100%;height:10vw;border:1px solid #ff6600;border-radius:500px;padding-left:20px;outline:none;margin:0px auto;box-sizing: border-box;display:inline-block;}
 #container .seachmo ul{width:100%;display:flex;margin-top:20px;justify-content: space-between;}
 #container .seachmo ul li{width:15%;}
-#container .seachmo ul li a{width:100%;background:#ff6600;color:#fff;padding:5px 10px;font-size:1vw;border-radius:50px;display:block;text-align:center;box-sizing: border-box;font-size:1vw}
+#container .seachmo ul li a{width:100%;background:#ff6600;color:#fff;padding:5px 10px;font-size:1.65vw;border-radius:50px;display:block;text-align:center;box-sizing: border-box;font-size:1.65vw}
 
 
 .seachmo1{width:92%;position:relative;border:1px solid #ff6600;border-radius:50px;padding:100px 30px;box-sizing:border-box;margin:0px auto;}
@@ -1000,7 +1006,7 @@ header .gnb h1 img{width:100%;display:block;}
 
 #container .story .tit2 .gnb li{overflow:hidden;position:relative;}
 
-#container .story .tit2 .gnb li a{width:100%;font-size:1.35vw;color:#fff;display:block;text-align:center;transform: translateY(15px);}
+#container .story .tit2 .gnb li a{width:100%;font-size:1.65vw;color:#fff;display:block;text-align:center;transform: translateY(15px);}
 
 #container .story .tit2 .gnb.on li:nth-of-type(1) a{animation:a1 linear 1s;animation-delay:1.6s;animation-fill-mode:forwards}
 @keyframes a1{ 
@@ -1025,7 +1031,7 @@ header .gnb h1 img{width:100%;display:block;}
 
 #container .story .tit2 .under{width:92%;display:flex;justify-content:space-between;margin:0px auto;}
 #container .story .tit2 .under li{position:relative;}
-#container .story .tit2 .under li p{visibility: hidden;font-size:1.35vw;}
+#container .story .tit2 .under li p{visibility: hidden;font-size:1.65vw;}
 #container .story .tit2 .under div{width:0%;height:2px;background:#fff;border-radius:500px;position:absolute;left:50%;top:50%;transform: translate(-50%,-50%);} 
 
 /*처브라이브 스토리 헤더*/
@@ -1371,7 +1377,7 @@ footer .foot1 .f2 ul li a{font-size:1vw;font-weight:300;}
   #container .seachmo ul{width:100%;display:flex;margin-top:20px;justify-content: space-between;}
   #container .seachmo ul li{width:18%;}
   #container .seachmo ul li:last-child{display:none;}
-  #container .seachmo ul li a{width:100%;background:#ff6600;color:#fff;padding:5px 10px;font-size:1vw;border-radius:50px;display:block;text-align:center;box-sizing: border-box;font-size:1vw}
+  #container .seachmo ul li a{width:100%;background:#ff6600;color:#fff;padding:5px 10px;font-size:1.65vw;border-radius:50px;display:block;text-align:center;box-sizing: border-box;}
   
   
   .seachmo1{width:92%;position:relative;border:1px solid #ff6600;border-radius:50px;padding:100px 30px;box-sizing:border-box;margin:0px auto;}
@@ -1415,9 +1421,9 @@ footer .foot1 .f2 ul li a{font-size:1vw;font-weight:300;}
   }
   #container .story .tit2 .gnb{width:92%;display:flex;justify-content:space-between;margin:25px auto 0px;}
   
-  #container .story .tit2 .gnb li{overflow:hidden;position:relative;}
+  #container .story .tit2 .gnb li{overflow:hidden;position:relative;font-size:1.65vw}
   
-  #container .story .tit2 .gnb li a{width:100%;font-size:1.35vw;color:#fff;display:block;text-align:center;transform: translateY(15px);}
+  #container .story .tit2 .gnb li a{width:100%;font-size:1.65vw;color:#fff;display:block;text-align:center;transform: translateY(15px);}
   
   #container .story .tit2 .gnb.on li:nth-of-type(1) a{animation:a1 linear 1s;animation-delay:1.6s;animation-fill-mode:forwards}
   @keyframes a1{ 
@@ -1442,7 +1448,7 @@ footer .foot1 .f2 ul li a{font-size:1vw;font-weight:300;}
   
   #container .story .tit2 .under{width:92%;display:flex;justify-content:space-between;margin:0px auto;}
   #container .story .tit2 .under li{position:relative;}
-  #container .story .tit2 .under li p{visibility: hidden;font-size:1.35vw;}
+  #container .story .tit2 .under li p{visibility: hidden;font-size:1.65vw;}
   #container .story .tit2 .under div{width:0%;height:2px;background:#fff;border-radius:500px;position:absolute;left:50%;top:50%;transform: translate(-50%,-50%);} 
   
   /*처브라이브 스토리 헤더*/
