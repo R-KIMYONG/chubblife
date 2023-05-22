@@ -2,6 +2,7 @@
 a{text-decoration:none;color:#000;}
 li{list-style:none;}
 body{font-family: 'Noto Sans KR', sans-serif;overflow-x: hidden;}
+body *{word-break: keep-all;}
 
 @media(min-width:1340px){
 
