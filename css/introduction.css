@@ -804,7 +804,7 @@ body *{word-break: keep-all;}
     #container .video .arrowcolor img{width:100%;}
    
 
-    #container video{width:100%;border-radius:120px 0px 0px 0px;mix-blend-mode: overlay;}
+    #container video{width:100%;border-radius:60px 0px 0px 0px;mix-blend-mode: overlay;}
 
     #container .video .play{width:8%;position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);z-index:99;}
     #container .video .whitelogo{width:90%;opacity:0.5;position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);}

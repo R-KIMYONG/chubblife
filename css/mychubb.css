@@ -987,8 +987,8 @@ body *{word-break: keep-all;}
     /*전체계약정보 박스 내부 내용*/
     #container .title3 .tit4{height:300px;border:1px solid #000;margin-top:50px;padding:10px;box-sizing: border-box;}
     #container .title3 .tit4 table{width:100%;border-collapse : collapse;border-spacing : 0px;}
-    #container .title3 .tit4 th{font-weight:700;font-size:1.4vw;border-bottom:1px solid #ccc;height:80px;}
-    #container .title3 .tit4 td{font-weight:300;text-align:center;font-size:1.6vw;padding-top:20px;}
+    #container .title3 .tit4 th{font-weight:700;font-size:1.4vw;border-bottom:1px solid #ccc;height:40px;}
+    #container .title3 .tit4 td{font-weight:300;text-align:center;font-size:1.6vw;padding-top:20px;box-sizing: border-box;}
     #container .title3 .tit4 ul li{text-align:center;font-size:1.4vw;}
     #container .title3 .tit4 table a{border-bottom:1px solid #000;}
 

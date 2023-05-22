@@ -1036,9 +1036,11 @@ header .gnb h1 img{width:100%;display:block;}
 
 /*처브라이브 스토리 헤더*/
 
-#container .story .detail{width:80%;display:flex;justify-content:space-between;margin:25px auto;align-items:center;}
+#container .story .detail{width:92%;display:flex;justify-content:space-between;margin:25px auto;align-items:center;}
 
 /*처브라이브 스토리 왼쪽 내용*/
+#container .story .detail .de1{width:48%}
+#container .story .detail .de2{width:48%;}
 #container .story .detail .de1 h2{width:0px;font-size:2.65vw;font-weight:700;color:#fff;}
 #container .story .detail .de1 p{width:0px;font-size:1.5vw;font-weight:700;color:#fff;margin-top:25px;overflow:hidden;}
 
@@ -1104,7 +1106,7 @@ header .gnb h1 img{width:100%;display:block;}
 
 
 
-#container .feedback .feedb1 .fe1 li .info{width:100%;height:80px;background:#ffd6bb;;border-radius:0px 0px 15px 15px;padding:5px 10px;position:absolute;bottom:0px;box-sizing: border-box;}
+#container .feedback .feedb1 .fe1 li .info{width:100%;height:35%;background:#ffd6bb;;border-radius:0px 0px 15px 15px;padding:5px 10px;position:absolute;bottom:0px;box-sizing: border-box;}
 #container .feedback .feedb1 .fe1 li .info>h3{font-size:1.1vw;margin-bottom:10px;}
 #container .feedback .feedb1 .fe1 li .info .info1>p{font-size:0.9vw;}
 #container .feedback .feedb1 .fe1 li .info .info1{width:100%;display:flex;justify-content:space-between;align-items:center;margin:0px auto;flex-wrap:wrap;}
@@ -1129,12 +1131,12 @@ header .gnb h1 img{width:100%;display:block;}
 
 
 /*공지사항*/
-#container .notice{width:100%;background:#008c94;padding:30px 60px;box-sizing:border-box;border-radius:0px 0px 20px 20px;}
+#container .notice{width:100%;background:#008c94;padding:30px 30px;box-sizing:border-box;border-radius:0px 0px 20px 20px;}
 #container .notice h3{text-align:center;}
 #container .notice h3 a{color:#fff;font-size:3vw;font-weight:700;}
 
 #container .notice .not1{margin-top:50px;}
-#container .notice .not1 .n1{margin-right:80px;}
+#container .notice .not1 .n1{margin-right:40px;}
 #container .notice .not1 li div{text-overflow:ellipsis;white-space:nowrap;overflow:hidden;color:#fff;}    
 #container .notice .not1 li div a{display:block;}
 #container .notice .not1 li div .n2{text-overflow:ellipsis;white-space:nowrap;overflow:hidden;color:#fff;}   
