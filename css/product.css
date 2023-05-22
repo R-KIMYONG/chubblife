@@ -716,13 +716,13 @@ footer .foot1 .f2 ul li a{font-size:12px;font-weight:300;}
 
     #visual .product1{width:0%;height:50vw;background:rgba(255, 102, 0, 0.5);position:absolute;top:50%;left:0px;transform:translateY(-50%);}
     #visual .product1 .pro1{width:90%;height:80%;;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);color:#fff;overflow:hidden;}
-    #visual .product1 .pro1 h2{font-size:6.5vw;font-weight:500;text-shadow:1px 1px 3px #ccc;margin-bottom:20px;transform:translateY(-100%);}
+    #visual .product1 .pro1 h2{font-size:6.5vw;font-weight:500;text-shadow:1px 1px 3px #ccc;margin-bottom:10px;transform:translateY(-100%);}
     #visual .product1.on .pro1 h2{animation:title1 1s linear;animation-fill-mode:forwards;animation-delay:1.2s;}
     @keyframes title1 {        
         100%{transform: translateY(0px);opacity:1;}
     }
    
-    #visual .product1 .more{margin-top:60px;opacity:0;}
+    #visual .product1 .more{margin-top:30px;opacity:0;}
     #visual .product1.on .more{animation:more 1s linear;animation-fill-mode:forwards;animation-delay:3.4s}
     @keyframes more {
         100%{opacity:1;}
