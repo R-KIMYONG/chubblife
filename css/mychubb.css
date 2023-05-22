@@ -958,7 +958,7 @@ body *{word-break: keep-all;}
 
 
     /*기본정보 내용*/
-    #container .title2{width:92%;display:flex;justify-content: space-between;margin:0px auto;border:1px solid #000;align-items:flex-end;;padding:45px 6vw;box-sizing:border-box;}
+    #container .title2{width:92%;display:flex;justify-content: space-between;margin:0px auto;border:1px solid #000;align-items:flex-end;;padding:45px 10px;box-sizing:border-box;}
     #container .title2 .tit1{width:65%;}
     #container .title2 .tit1 .ti1{width:80%;display:flex;margin-bottom:50px;align-items:center;justify-content: space-between;}
     #container .title2 .tit1 .ti1 a{background:#ff6600;color:#fff;border-radius:500px;padding:1vw 3vw;font-size:1.6vw;}
