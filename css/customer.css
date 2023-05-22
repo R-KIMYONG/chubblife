@@ -589,7 +589,7 @@ body *{word-break: keep-all;}
     #visual .customvisual{width:80%;height:40%;position:absolute;left:50px;top:75%;transform: translateY(-75%);}
     #visual .customvisual .title1 .tit1 h2{font-size:5.3vw;font-weight:900;color:#fff;color:#fff;}
     #visual .customvisual .title1 .tit1 p{font-size:2vw;font-weight:700;color:#fff;letter-spacing: 4px;margin:20px 0px;}
-    #visual .customvisual .title1 h2{font-size:5.3vw;font-weight:900;color:#fff;}
+    #visual .customvisual .title1 h2{font-size:5.3vw;font-weight:900;color:#fff!important}
 
     #visual .custom1{display:none;}   
     
@@ -625,7 +625,7 @@ body *{word-break: keep-all;}
     #search .search1_1{display:flex;justify-content: center;align-items:flex-end;;}
     #search .search1_1 textarea{background:none;border:none;border-bottom:1px solid #ccc;resize:none;line-height:30px;padding-left:20px;outline: none;overflow:hidden;}
     #search .search1_1 div{width:3%;}
-    #search .search1_1 div img{display:block;cursor: pointer;}
+    #search .search1_1 div img{display:block;cursor: pointer;margin-bottom:10px;}
     
     #container{width:92%;display:flex;justify-content: space-between;margin:0px auto;margin-top:20px;}
 

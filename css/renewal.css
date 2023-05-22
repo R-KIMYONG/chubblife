@@ -1077,13 +1077,13 @@ header .gnb h1 img{width:100%;display:block;}
 }
 
 #container .story .detail .de1 .de1_1 li{width:40%;height:30px;;text-align:center;line-height:30px;}
-#container .story .detail .de1 .de1_1 li a{color:#ff6600;font-size:1.05vw;font-weight:400;display:block;padding:0px 5px;background:#fff;box-sizing: border-box;border-radius:30px;transition:0.5s}
+#container .story .detail .de1 .de1_1 li a{color:#ff6600;font-size:1.65vw;font-weight:400;display:block;padding:0px 5px;background:#fff;box-sizing: border-box;border-radius:30px;transition:0.5s}
 #container .story .detail .de1 .de1_1 li a:hover{color:#fff;background:#e05b02;}
 
   
 /*처브라이브 스토리 오른쪽 내용*/
 #container .story .detail .de2{transform: translateY(30px);;opacity:0;}
-#container .story .detail .de2 .whiteline{width:35vw;height:35vw;border-radius:400px;}
+#container .story .detail .de2 .whiteline{width:31vw;height:31vw;border-radius:400px;}
 #container .story .detail .de2 .whiteline .bg{width:40vw;height:40vw;background:url(../img/img15.jpg) no-repeat;border-radius:400px;background-position:left;background-size:160%;z-index:1;border:5px solid #fff}
 
 /*가입후기 / 공지사항*/
@@ -1107,11 +1107,11 @@ header .gnb h1 img{width:100%;display:block;}
 
 
 #container .feedback .feedb1 .fe1 li .info{width:100%;height:35%;background:#ffd6bb;;border-radius:0px 0px 15px 15px;padding:5px 10px;position:absolute;bottom:0px;box-sizing: border-box;}
-#container .feedback .feedb1 .fe1 li .info>h3{font-size:1.1vw;margin-bottom:10px;}
-#container .feedback .feedb1 .fe1 li .info .info1>p{font-size:0.9vw;}
+#container .feedback .feedb1 .fe1 li .info>h3{font-size:1.65vw;margin-bottom:10px;}
+#container .feedback .feedb1 .fe1 li .info .info1>p{font-size:1.65vw;}
 #container .feedback .feedb1 .fe1 li .info .info1{width:100%;display:flex;justify-content:space-between;align-items:center;margin:0px auto;flex-wrap:wrap;}
 #container .feedback .feedb1 .fe1 li .info .info1 .info2{display:flex;justify-content:space-between;align-items:center;margin-top:5px;}
-#container .feedback .feedb1 .fe1 li .info .info1 .info2 p{font-size:0.9vw}
+#container .feedback .feedb1 .fe1 li .info .info1 .info2 p{font-size:1.65vw}
 #container .feedback .feedb1 .fe1 li .info .info1 .info2 img{width:10%;display:block;}
 
 /*가입후기 하단 페이지위치 안내바*/
@@ -1143,9 +1143,9 @@ header .gnb h1 img{width:100%;display:block;}
 
 #container .notice .not1 li{margin-bottom:50px;border-bottom:1px solid #fff;padding-bottom:12px;display:flex;align-items:center;}
 
-#container .notice .not1 li a{color:#fff;font-size:1.1vw;font-weight:500;}
+#container .notice .not1 li a{color:#fff;font-size:1.65vw;font-weight:500;}
 
-#container .notice .seemore a{display:flex;justify-content:flex-end;align-items:center;color:#fff;font-size:1.1vw;}
+#container .notice .seemore a{display:flex;justify-content:flex-end;align-items:center;color:#fff;font-size:1.65vw;}
 
 #container .notice .seemore a div{padding-top:7px;margin-left:10px;text-align:center;}
 
