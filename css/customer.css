@@ -33,7 +33,7 @@ body *{word-break: keep-all;}
     #visual .customvisual .title1{display:flex;}
     #visual .customvisual .title1 .tit1 h2{font-size:40px;font-weight:900;color:#fff;}
     #visual .customvisual .title1 .tit1 p{font-size:15px;font-weight:700;color:#fff;letter-spacing: 8px;}
-    #visual .customvisual .title1 h2{font-size:40px;font-weight:900;color:#fff;}
+    #visual .customvisual .title1>p{font-size:40px;font-weight:900;color:#fff;}
 
     #visual .custom1{width:100%;position:absolute;bottom:0%;left:50%;transform:translateX(-50%);box-shadow:0px 5px 10px #ccc;background:rgba(255, 255, 255, 0.5);border-radius:20px;padding:30px;box-sizing:border-box;margin-top:50px;}
    
