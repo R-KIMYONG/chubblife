@@ -649,7 +649,7 @@ body *{word-break: keep-all;}
     #container .template ul li div h3{font-size:1.65vw;font-weight:700;position:absolute;left:50%;top:50%;transform: translate(-50%,-50%);}
     #container .template ul li .temp{width:50%;height:40%;margin-left:10px;border:none;}
     #container .template ul li .temp p{color:#ccc;display:none;}
-    #container .template ul li .temp input{width:50%;height:100%;border-radius:10px;padding-left:5px;white-space:normal;font-size:1vw;border:1px solid #ccc;}
+    #container .template ul li .temp input{width:50%;height:100%;border-radius:10px;padding-left:5px;white-space:normal;font-size:1vw;border:1px solid #ccc;outline:none;}
     #container .template ul li:nth-of-type(5){height:40%;}
     #container .template ul li:nth-of-type(5) div{width:40%;}
     #container .template ul li:nth-of-type(5) .temp{width:60%;height:100%}
