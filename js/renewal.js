@@ -23,14 +23,14 @@ $(function(){
     
         setInterval(function(){
             $("header,.blackbg,.tit,.visualicion,.myDiv").fadeIn();           
-        },10000)
+        },5000)
 
         
         let baseline1 = -650;
         let baseline2 = -250;
         let position3 = $(".product").offset().top+baseline1;   
         let position4 = $(".story").offset().top+baseline1;   
-        let position5 =$(".banner").offset().top+baseline2; 
+        let position5 = $(".banner").offset().top+baseline2; 
         $(window).scroll(function(){
             let b=$(this).scrollTop();
             //alert(b)
@@ -101,7 +101,7 @@ $(function(){
                 $(".tit2").addClass("on")
                 $(".gnb").addClass("on")
                 $(".de1_1").addClass("on")
-                $(".de2").delay(2200).animate({transform: "translateY(0px)",opacity:"1"},2000)
+                $(".de2").delay(2200).animate({transform: "translateY(-10px)",opacity:"1"},2000)
             }else if(b<=position4){
 
             }
@@ -196,11 +196,33 @@ $(function(){
             }
         })
     
+
+
+
+
+
+
         setInterval(function(){
-            $("header,.blackbg,.search,.tit,.visualicion,.myDiv").fadeIn();
+            $("header,.blackbg,.search,.visualicion,.myDiv").fadeIn();
             $(".search").animate({opacity:"1"});
-        },10000)
+            $(".tit").animate({opacity:"1"})
+        },5000)
     
+        const video =document.querySelector(".mainvisual");
+        const progressBar = document.querySelector('.white');
+        function handleProgress() {
+            const percent = (video.currentTime / video.duration) * 100;
+            progressBar.style.flexBasis = `${percent}%`;
+        }
+        
+        video.addEventListener('timeupdate', handleProgress);
+
+       /* let playline = setInterval(function(){
+            $(".playline .black").animate({width:"300px"},16000,function(){
+                $(".playline .black").css({width:"0px"})
+            })
+        },50)*/
+
         let c = 0;
         $(".gnb li").on("mouseenter",function(){
             c=$(this).index();
