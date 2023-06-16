@@ -1,0 +1,11 @@
+$(function(){
+    setInterval(function(){
+        $("ul").stop().animate({marginLeft:"-100%"},function(){
+            $("li").animate({scale:"100%"},function(){
+                $$("li").animate({scale:"110%"},3000)
+            })
+            $("ul").css({marginLeft:"0px"});
+            $("li").first().appendTo("ul")                    
+        })
+    },3000)
+})

@@ -93,6 +93,7 @@ $(function(){
         +baseline;   
         let position4 = $(".story").offset().top
         +baseline;   
+        let position5 =$(".fe1").offset().top+baseline  
         $(window).scroll(function(){
             let b=$(this).scrollTop();
             //alert(b)
@@ -105,6 +106,47 @@ $(function(){
             }else if(b<=position4){
 
             }
+
+                
+            if(b>=position5){
+                let good1 = 0; 
+                let good2 = 0;
+                let good3 = 0;
+                let good4 =0;         
+                start1 = setInterval(function(){
+                    good1++;
+                    if(good1<=53){
+                    $(".good1").text(good1)
+                    }else{
+                        clearInterval(start1);
+                    }
+                },50)
+                start2 =setInterval(function(){
+                    good2++;
+                    if(good2<=58){
+                    $(".good2").text(good2)
+                    }else{
+                        clearInterval(start2);
+                    }
+                },50)
+                start3 =setInterval(function(){
+                    good3++;
+                    if(good3<=69){
+                    $(".good3").text(good3)
+                    }else{
+                        clearInterval(start3);
+                    }
+                },50)
+                start4 =setInterval(function(){
+                    good4++;
+                    if(good4<=41){
+                    $(".good4").text(good4)
+                    }else{
+                        clearInterval(start4);
+                    }
+                },50)
+    
+              }
         })
         setInterval(function(){
             $(".listmo1").animate({left:"-23%"},3000,function(){

@@ -89,7 +89,7 @@ $(function(){
 
                 $("#menu .clo2").removeClass("off").animate({opacity:"1"});
                 $("#menu div").fadeOut();
-                $(this).animate({width:"35px"}).addClass("on")
+                $(this).animate({width:"35px",height:"35px"}).addClass("on")
                 $("#menu .clo1").addClass("on").animate({opacity:"1"},function(){
                     $("#menu .clo2").delay(800).addClass("on")
                 })                
@@ -98,6 +98,7 @@ $(function(){
                 $(".gnb3 li").removeClass("on",function(){
                     $(".gnb3").slideUp();
                 })
+                $("#menu .clo1").animate({opacity:"0"})
                 $("#menu .clo2").removeClass("on")
                 $("#menu .clo2").addClass("off").animate({opacity:"0"},function(){
                     $("#menu .clo1").removeClass("on")
